@@ -1,0 +1,10 @@
+# 虚拟环境
+venv/
+.venv/
+conda/
+.conda/
+
+# 编译文件
+*.pyc
+
+
