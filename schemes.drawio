@@ -1,0 +1,141 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="第 1 页" id="GlA9jqTZKY-9wXaSONkV">
+    <mxGraphModel dx="819" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2wj5-VdXN_ImMbLCgW-t-1" target="2wj5-VdXN_ImMbLCgW-t-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-1" value="灰度图像" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2wj5-VdXN_ImMbLCgW-t-2" target="2wj5-VdXN_ImMbLCgW-t-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-2" value="二值化图像" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="20" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2wj5-VdXN_ImMbLCgW-t-4" target="2wj5-VdXN_ImMbLCgW-t-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-4" value="检查轮廓形状" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="20" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-6" value="验证结果正确性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="20" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-9" value="阈值分割" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-10" value="查找轮廓" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-13" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;坐标和角度&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="15" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2wj5-VdXN_ImMbLCgW-t-15" target="2wj5-VdXN_ImMbLCgW-t-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2wj5-VdXN_ImMbLCgW-t-15" target="2wj5-VdXN_ImMbLCgW-t-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399.9655172413793" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-15" value="中心可落子？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="80" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-20" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-21" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2wj5-VdXN_ImMbLCgW-t-23" target="2wj5-VdXN_ImMbLCgW-t-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2wj5-VdXN_ImMbLCgW-t-23" target="2wj5-VdXN_ImMbLCgW-t-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-23" value="赛场中只有&lt;div&gt;一枚&lt;span style=&quot;background-color: initial;&quot;&gt;人类棋子？&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="150" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2wj5-VdXN_ImMbLCgW-t-29" target="2wj5-VdXN_ImMbLCgW-t-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-29" value="Alpha-Beta Pruning" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2wj5-VdXN_ImMbLCgW-t-31" target="2wj5-VdXN_ImMbLCgW-t-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="249.99999999999977" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-31" value="读取 /dev/urandom&lt;div&gt;获取随机数&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="195" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-35" value="落子在中心" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-39" value="随机落子" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-40" value="获取最优解落子" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-42" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="195" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-43" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-47" value="树莓派" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="602" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2wj5-VdXN_ImMbLCgW-t-48" target="2wj5-VdXN_ImMbLCgW-t-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2wj5-VdXN_ImMbLCgW-t-48" target="2wj5-VdXN_ImMbLCgW-t-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-48" value="STM32F407" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="582" y="180" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-49" value="步进电机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="594" y="239.5" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2wj5-VdXN_ImMbLCgW-t-50" target="2wj5-VdXN_ImMbLCgW-t-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-50" value="串口屏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="180" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-55" value="命令" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="522" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-58" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2wj5-VdXN_ImMbLCgW-t-48" target="2wj5-VdXN_ImMbLCgW-t-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="170" as="sourcePoint" />
+            <mxPoint x="640" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-59" value="视觉数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-60" value="落子数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-61" value="控制" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wj5-VdXN_ImMbLCgW-t-62" value="电磁铁&lt;div&gt;吸取放下&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="179.5" width="70" height="30.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
