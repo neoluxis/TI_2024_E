@@ -218,15 +218,15 @@ def main():
 
 if __name__ == "__main__":
     # main()
-    # board1 = [["X", "O", " "], [" ", "O", " "], [" ", " ", "X"]]
-    # board2 = [["X", " ", "O"], [" ", "O", " "], [" ", " ", "X"]]
-    # print_board(board1)
-    # print()
-    # print_board(board2)
+    board1 = [["X", "O", " "], [" ", "O", " "], [" ", " ", "X"]]
+    board2 = [["X", " ", "O"], [" ", "O", " "], [" ", " ", "X"]]
+    print_board(board1)
+    print()
+    print_board(board2)
 
-    # ret, old_pos, new_pos = anti_cheat(board1, board2)
-    # if ret:
-    #     print(old_pos, "->", new_pos)
-    board =  [[' ', ' ', ' '], [' ', 'X', ' '], [' ', ' ', ' ']]
-    bm = best_move(board)
-    print(bm)
+    ret, old_pos, new_pos = anti_cheat(board1, board2)
+    if ret:
+        print(old_pos, "->", new_pos)
+    # board =  [['X', 'O', ' '], [' ', 'O', 'X'], [' ', ' ', ' ']]
+    # bm = best_move(board)
+    # print(bm)

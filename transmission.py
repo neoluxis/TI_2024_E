@@ -1,5 +1,7 @@
 from serial import Serial
+
 ser = None
+
 
 class ByteArray(bytearray):
     def __init__(self, data):

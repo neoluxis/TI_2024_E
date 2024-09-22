@@ -4,19 +4,19 @@ import time, datetime
 
 from serial import Serial
 
-import Final.config as C
-from Final.config import ErrCode
+import config as C
+from config import ErrCode
 from ThreadingCam import ThreadCap
 from py_tic_tac_toe.game import best_move, decide_win, anti_cheat
 from detection import find_field, find_pieces, read_board
-from transmission import ser, send_field, send_pieces, notify_winner, notify_cheat
+from transmission import ser, send_field, send_pieces, notify_winner, notify_cheat, ByteArray
 
 
 def main():
     if C.threading_cam:
-        cap = ThreadCap(camera_index=0, width=640, height=480, fps=120)
+        cap = ThreadCap(camera_index=C.cam_id, width=640, height=480, fps=120)
     else:
-        cap = cv.VideoCapture(0)
+        cap = cv.VideoCapture(C.cam_id)
         cap.set(cv.CAP_PROP_FRAME_WIDTH, 640)
         cap.set(cv.CAP_PROP_FRAME_HEIGHT, 480)
         cap.set(cv.CAP_PROP_FOURCC, cv.VideoWriter.fourcc(*"MJPG"))
@@ -60,7 +60,6 @@ def main():
                 elif cmd == b"5":
                     board = read_board(fm, 5)
                 else:
-                    
                     continue
                 print("Board:\n", board)
                 print("Last Board: \n", last_board)
